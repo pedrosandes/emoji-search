@@ -9,7 +9,6 @@ const EmojiContainer = () => {
   const [search, setSearch] = useState('')
 
   return (
-    <>     
         <div className="container">
         <Search 
         value={search} 
@@ -26,7 +25,6 @@ const EmojiContainer = () => {
          ))}
          
         </div>
-      </>
     ) 
 }
 
