@@ -1,4 +1,4 @@
-import Emoji from './components/emoji/index'
+import EmojiContainer from './components/emojiContainer/index'
 import Header from './components/header/index'
 
 const App = () => {
@@ -6,7 +6,7 @@ const App = () => {
   return (
       <>
         <Header />
-        <Emoji />
+        <EmojiContainer />
       </>
     ) 
 }
