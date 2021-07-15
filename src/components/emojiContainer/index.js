@@ -12,7 +12,7 @@ const EmojiContainer = () => {
         <div className="container">
         <Search 
         value={search} 
-        event={(ev) => setSearch(ev.target.value)}
+        onChange={(ev) => setSearch(ev.target.value)}
         />
 
        {arrayEmoji

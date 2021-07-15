@@ -7,7 +7,7 @@ const Search = (props) => {
       type="text" 
       placeholder="Pesquisar emoji" 
       value={props.search}
-      onChange={props.event}
+      onChange={props.onChange}
     />
   );
 }
