@@ -1,0 +1,17 @@
+#search-input {
+  width: 350px;
+  padding: 10px 20px;
+  font-size: 18px;
+
+  border-radius: 10px;
+  border: none;
+  box-shadow: 3px 4px 10px  rgba(0,0,0,0.20);
+  outline: none;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 590px) {
+  #search-input {
+    width: 100%;
+  }
+}
