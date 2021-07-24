@@ -8,6 +8,13 @@ const EmojiContainer = () => {
 
   const [search, setSearch] = useState('')
 
+  const emojiFiltrado = arrayEmoji.filter(emoji => 
+    emoji.keywords.toLowerCase()
+      .includes(search.toLowerCase()))
+
+  const emojiPreview = emojiFiltrado.slice(0,5)
+
+
   return (
         <div className="container">
         <Search 
@@ -15,10 +22,7 @@ const EmojiContainer = () => {
         onChange={(ev) => setSearch(ev.target.value)}
         />
 
-       {arrayEmoji
-         .filter(emoji => 
-          emoji.keywords.toLowerCase().includes(search.toLowerCase()))
-         .map(({title, symbol}) => (
+       {emojiPreview.map(({title, symbol}) => (
             <>
             <Emoji title={title} emoji={symbol}/>
             </>
