@@ -2,6 +2,8 @@
 
 Esse é um projeto feito em React, para estudar sobre os estados no react, utilizando o hook de useState para fazer o campo de busca e exibir o resultado, assim fazendo um filtro na palavra digitada.
 
+[Link Online](https://emoji-searchs.herokuapp.com/)
+
 # Desktop
 ![Capturar](https://user-images.githubusercontent.com/75694617/126852338-759dc66a-6114-44cf-84d8-6482ce3110fa.PNG)
 
